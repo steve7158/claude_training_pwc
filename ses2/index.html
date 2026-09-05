@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ALCOA+ Audit Tool | Eli Lilly QA</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark">Lilly</span>
+        <div class="brand-divider"></div>
+        <div class="brand-text">
+          <span class="brand-title">Quality Assurance</span>
+          <span class="brand-subtitle">ALCOA+ Data Integrity Audit Tool</span>
+        </div>
+      </div>
+      <nav class="tabs" role="tablist">
+        <button class="tab-btn active" data-view="dashboard" role="tab">Dashboard</button>
+        <button class="tab-btn" data-view="new-audit" role="tab">New Audit</button>
+        <button class="tab-btn" data-view="reference" role="tab">ALCOA+ Reference</button>
+        <button class="tab-btn" data-view="search" role="tab">Web Search</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="app-main">
+
+    <!-- DASHBOARD VIEW -->
+    <section id="view-dashboard" class="view active">
+      <div class="view-header">
+        <div>
+          <h1>Audit Dashboard</h1>
+          <p class="view-subtitle">Track data-integrity audits across GxP records</p>
+        </div>
+        <button class="btn btn-primary" id="btn-new-audit">+ New Audit</button>
+      </div>
+
+      <div class="stat-row" id="stat-row"></div>
+
+      <div class="toolbar">
+        <input type="text" id="search-input" placeholder="Search by record name, type, or auditor…" class="search-input" />
+        <select id="filter-status" class="filter-select">
+          <option value="all">All statuses</option>
+          <option value="compliant">Compliant</option>
+          <option value="attention">Needs Attention</option>
+          <option value="noncompliant">Non-Compliant</option>
+        </select>
+      </div>
+
+      <div id="audit-list" class="audit-list"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <p>No audits yet. Start your first ALCOA+ assessment.</p>
+        <button class="btn btn-primary" id="btn-empty-new-audit">+ New Audit</button>
+      </div>
+    </section>
+
+    <!-- NEW / EDIT AUDIT VIEW -->
+    <section id="view-new-audit" class="view">
+      <div class="view-header">
+        <div>
+          <h1 id="audit-form-title">New ALCOA+ Audit</h1>
+          <p class="view-subtitle">Assess a GxP record against the nine ALCOA+ data-integrity principles</p>
+        </div>
+      </div>
+
+      <form id="audit-form">
+        <div class="card">
+          <h2 class="card-title">Record Information</h2>
+          <div class="form-grid">
+            <label class="field">
+              <span>Record Name / ID</span>
+              <input type="text" id="f-record-name" required placeholder="e.g., Batch Record BR-2026-0417" />
+            </label>
+            <label class="field">
+              <span>Record Type</span>
+              <select id="f-record-type" required>
+                <option value="">Select type…</option>
+                <option>Batch Record</option>
+                <option>Laboratory Notebook</option>
+                <option>Standard Operating Procedure</option>
+                <option>Deviation Report</option>
+                <option>Validation Protocol</option>
+                <option>Electronic Data System (LIMS/ERP)</option>
+                <option>CAPA Record</option>
+                <option>Training Record</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Auditor Name</span>
+              <input type="text" id="f-auditor" required placeholder="e.g., J. Alvarez" />
+            </label>
+            <label class="field">
+              <span>Audit Date</span>
+              <input type="date" id="f-date" required />
+            </label>
+            <label class="field field-wide">
+              <span>Site / Department</span>
+              <input type="text" id="f-department" placeholder="e.g., Indianapolis — Sterile Manufacturing QA" />
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">ALCOA+ Assessment</h2>
+          <p class="card-subtitle">For each principle, rate compliance and record supporting evidence or gaps.</p>
+          <div id="criteria-container"></div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">Overall Notes</h2>
+          <label class="field field-wide">
+            <span>Summary / Recommendations</span>
+            <textarea id="f-summary" rows="3" placeholder="Overall findings, risk assessment, and recommended CAPA if applicable…"></textarea>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" id="btn-cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Audit</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- VIEW AUDIT DETAIL -->
+    <section id="view-detail" class="view">
+      <div class="view-header">
+        <div>
+          <h1 id="detail-title">Audit Detail</h1>
+          <p class="view-subtitle" id="detail-subtitle"></p>
+        </div>
+        <div class="detail-actions">
+          <button class="btn btn-secondary" id="btn-edit-audit">Edit</button>
+          <button class="btn btn-danger" id="btn-delete-audit">Delete</button>
+        </div>
+      </div>
+      <div id="detail-content"></div>
+    </section>
+
+    <!-- REFERENCE VIEW -->
+    <section id="view-reference" class="view">
+      <div class="view-header">
+        <div>
+          <h1>ALCOA+ Reference Guide</h1>
+          <p class="view-subtitle">The nine principles of data integrity used in this assessment</p>
+        </div>
+      </div>
+      <div id="reference-container" class="reference-grid"></div>
+    </section>
+
+    <!-- WEB SEARCH VIEW -->
+    <section id="view-search" class="view">
+      <div class="view-header">
+        <div>
+          <h1>Web Search</h1>
+          <p class="view-subtitle">Look up regulatory guidance or reference material without leaving the tool</p>
+        </div>
+      </div>
+
+      <form id="web-search-form" class="toolbar">
+        <input type="text" id="web-search-input" required placeholder="e.g., FDA 21 CFR Part 11 data integrity guidance" class="search-input" />
+        <button type="submit" class="btn btn-primary" id="btn-web-search">Search</button>
+      </form>
+
+      <div id="search-results" class="search-results"></div>
+      <div id="search-empty-state" class="empty-state">
+        <p id="search-empty-message">Enter a query above to search the web.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <span>Eli Lilly and Company — Quality Assurance • Internal Data Integrity Tool</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

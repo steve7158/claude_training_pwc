@@ -1,0 +1,6 @@
+**/.venv
+**/__pycache__
+**/node_modules
+# node_modules/
+**/data/*.db
+**/data/*.db-*

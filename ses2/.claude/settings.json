@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/pwtest/**)",
+      "Bash(npx playwright *)",
+      "Bash(rm -rf /tmp/pwtest /tmp/http_server.log *)",
+      "Bash(npm -v)",
+      "Bash(npm install *)",
+      "Read(//tmp/pw-scratch/**)",
+      "Bash(node -e ' *)"
+    ],
+    "additionalDirectories": [
+      "/tmp/pwtest"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | { read -r f; if [ \"$(basename \"$f\")\" = \"app.js\" ]; then node --check \"$f\" || exit 2; fi; }"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rm -rf ./dist; find . -maxdepth 1 -type f -name '*.log' -delete"
+          }
+        ]
+      }
+    ]
+  }
+}
