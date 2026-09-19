@@ -1,0 +1,9 @@
+streamlit>=1.38
+pandas>=2.2
+matplotlib>=3.9
+mcp-server-fetch>=2024.11
+opentelemetry-api>=1.27
+opentelemetry-sdk>=1.27
+opentelemetry-semantic-conventions>=0.48b0
+opentelemetry-exporter-otlp-proto-grpc>=1.27
+opentelemetry-instrumentation-system-metrics>=0.48b0

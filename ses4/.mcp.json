@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "type": "stdio",
+      "command": "/home/labuser/steve-proj/claude_training_pwc/ses4/.venv/bin/python",
+      "args": ["-m", "mcp_server_fetch"],
+      "env": {}
+    }
+  }
+}
