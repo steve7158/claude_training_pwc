@@ -1,0 +1,1 @@
+{"nodes": [{"id": "k6_observability_grafana_provisioning_dashboards_dashboards", "label": "Grafana k6 Dashboards Provider Config", "file_type": "code", "source_file": "k6-observability/grafana/provisioning/dashboards/dashboards.yaml", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}

@@ -1,0 +1,34 @@
+{
+  "policy_version": "1.0",
+  "staleness_threshold_days": 365,
+  "sources": [
+    {
+      "source_id": "pubmed_central",
+      "name": "PubMed Central",
+      "type": "literature",
+      "domain": "ncbi.nlm.nih.gov",
+      "approved": true
+    },
+    {
+      "source_id": "clinicaltrials_gov",
+      "name": "ClinicalTrials.gov Registry",
+      "type": "trial_registry",
+      "domain": "clinicaltrials.gov",
+      "approved": true
+    },
+    {
+      "source_id": "helios_internal_docs",
+      "name": "Helios Oncology Internal Research Repository",
+      "type": "internal_report",
+      "domain": null,
+      "approved": true
+    },
+    {
+      "source_id": "unverified_forum_mirror",
+      "name": "Unverified third-party patient forum mirror",
+      "type": "literature",
+      "domain": "randomhealthforum.example",
+      "approved": false
+    }
+  ]
+}

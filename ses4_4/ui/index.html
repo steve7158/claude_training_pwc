@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Helios Evidence Review</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>Helios Evidence Review</h1>
+  <p class="subtitle">Governed target/disease evidence lookup &mdash; answers only from the approved corpus, every claim cited, confidence scored.</p>
+</header>
+
+<main>
+  <form id="ask-form" class="ask-form">
+    <label for="question">Research question</label>
+    <textarea id="question" name="question" rows="2"
+      placeholder="e.g. What evidence supports KRAS G12C inhibitors in lung cancer?"
+      required></textarea>
+    <button type="submit" id="submit-btn">Ask</button>
+  </form>
+
+  <p id="status-line" class="status-line" hidden></p>
+
+  <section id="results" hidden></section>
+</main>
+
+<template id="finding-template">
+  <article class="finding-card">
+    <div class="finding-head">
+      <span class="confidence-badge"></span>
+      <span class="confidence-score"></span>
+    </div>
+    <p class="finding-claim"></p>
+    <div class="source-chips"></div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

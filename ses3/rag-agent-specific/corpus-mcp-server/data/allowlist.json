@@ -1,0 +1,34 @@
+{
+  "policy_version": "1.0",
+  "staleness_threshold_days": 365,
+  "sources": [
+    {
+      "source_id": "pubmed_central",
+      "name": "PubMed Central",
+      "type": "literature",
+      "domain": "ncbi.nlm.nih.gov",
+      "approved": true
+    },
+    {
+      "source_id": "uspto_patent_full_text",
+      "name": "USPTO Patent Full-Text Search",
+      "type": "patent",
+      "domain": "patft.uspto.gov",
+      "approved": true
+    },
+    {
+      "source_id": "clinicaltrials_gov",
+      "name": "ClinicalTrials.gov Registry",
+      "type": "trial_registry",
+      "domain": "clinicaltrials.gov",
+      "approved": true
+    },
+    {
+      "source_id": "novacure_internal_docs",
+      "name": "NovaCure Internal Document Repository",
+      "type": "internal_report",
+      "domain": null,
+      "approved": true
+    }
+  ]
+}

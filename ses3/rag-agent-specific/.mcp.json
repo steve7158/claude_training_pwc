@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "corpus": {
+      "type": "stdio",
+      "command": "/home/labuser/steve-proj/claude_training_pwc/ses3/rag-agent-specific/corpus-mcp-server/.venv/bin/python",
+      "args": [
+        "/home/labuser/steve-proj/claude_training_pwc/ses3/rag-agent-specific/corpus-mcp-server/corpus_mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}

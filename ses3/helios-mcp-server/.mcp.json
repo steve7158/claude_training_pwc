@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "travelops": {
+      "type": "stdio",
+      "command": "/home/labuser/steve-proj/claude_training_pwc/ses3/helios-mcp-server/.venv/bin/python",
+      "args": [
+        "/home/labuser/steve-proj/claude_training_pwc/ses3/helios-mcp-server/travelops_mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}

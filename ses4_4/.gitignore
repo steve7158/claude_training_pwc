@@ -1,0 +1,3 @@
+evidence-mcp-server/.venv/
+evidence-mcp-server/**/__pycache__/
+.claude/audit/

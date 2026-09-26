@@ -1,0 +1,344 @@
+:root {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --border: #e2e2df;
+  --text: #1c1c1a;
+  --text-muted: #63635e;
+  --accent: #6d4fc2;
+
+  --status-answered-bg: #e4f5e9;
+  --status-answered-fg: #146c3c;
+  --status-insufficient-bg: #fdf1dc;
+  --status-insufficient-fg: #9a5b00;
+  --status-escalated-bg: #fbe6e6;
+  --status-escalated-fg: #a12626;
+
+  --conf-high-bg: #e4f5e9;
+  --conf-high-fg: #146c3c;
+  --conf-medium-bg: #fdf1dc;
+  --conf-medium-fg: #9a5b00;
+  --conf-low-bg: #f1f1ef;
+  --conf-low-fg: #63635e;
+
+  --chip-lit-bg: #eef1fb;
+  --chip-lit-fg: #33459a;
+  --chip-trial-bg: #eafaf3;
+  --chip-trial-fg: #1c7a52;
+  --chip-internal-bg: #f6eefb;
+  --chip-internal-fg: #6d3f9a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16161a;
+    --surface: #1f1f24;
+    --border: #34343b;
+    --text: #edeceb;
+    --text-muted: #a3a2a0;
+    --accent: #a892e8;
+
+    --status-answered-bg: #123822;
+    --status-answered-fg: #6fd39a;
+    --status-insufficient-bg: #3a2c0d;
+    --status-insufficient-fg: #e0ab4f;
+    --status-escalated-bg: #3a1717;
+    --status-escalated-fg: #f08a8a;
+
+    --conf-high-bg: #123822;
+    --conf-high-fg: #6fd39a;
+    --conf-medium-bg: #3a2c0d;
+    --conf-medium-fg: #e0ab4f;
+    --conf-low-bg: #2a2a30;
+    --conf-low-fg: #a3a2a0;
+
+    --chip-lit-bg: #1e2440;
+    --chip-lit-fg: #a9b6ea;
+    --chip-trial-bg: #12332a;
+    --chip-trial-fg: #7fd6b4;
+    --chip-internal-bg: #2c1f3a;
+    --chip-internal-fg: #cba8ea;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #16161a;
+  --surface: #1f1f24;
+  --border: #34343b;
+  --text: #edeceb;
+  --text-muted: #a3a2a0;
+  --accent: #a892e8;
+
+  --status-answered-bg: #123822;
+  --status-answered-fg: #6fd39a;
+  --status-insufficient-bg: #3a2c0d;
+  --status-insufficient-fg: #e0ab4f;
+  --status-escalated-bg: #3a1717;
+  --status-escalated-fg: #f08a8a;
+
+  --conf-high-bg: #123822;
+  --conf-high-fg: #6fd39a;
+  --conf-medium-bg: #3a2c0d;
+  --conf-medium-fg: #e0ab4f;
+  --conf-low-bg: #2a2a30;
+  --conf-low-fg: #a3a2a0;
+
+  --chip-lit-bg: #1e2440;
+  --chip-lit-fg: #a9b6ea;
+  --chip-trial-bg: #12332a;
+  --chip-trial-fg: #7fd6b4;
+  --chip-internal-bg: #2c1f3a;
+  --chip-internal-fg: #cba8ea;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding-inline: 16px;
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+
+.topbar {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.topbar h1 {
+  font-size: 1.4rem;
+  margin: 0 0 4px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin: 0;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.ask-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.ask-form label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.ask-form textarea {
+  resize: vertical;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.ask-form button {
+  align-self: flex-end;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.ask-form button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.status-line {
+  margin: 16px 0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.status-loading {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+.status-error {
+  background: var(--status-escalated-bg);
+  color: var(--status-escalated-fg);
+}
+
+#results { margin-top: 8px; }
+
+.result-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.status-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.status-answered { background: var(--status-answered-bg); color: var(--status-answered-fg); }
+.status-insufficient_evidence { background: var(--status-insufficient-bg); color: var(--status-insufficient-fg); }
+.status-escalated { background: var(--status-escalated-bg); color: var(--status-escalated-fg); }
+
+.result-meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.findings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.empty-findings {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.finding-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.finding-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.confidence-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+
+.confidence-High { background: var(--conf-high-bg); color: var(--conf-high-fg); }
+.confidence-Medium { background: var(--conf-medium-bg); color: var(--conf-medium-fg); }
+.confidence-Low { background: var(--conf-low-bg); color: var(--conf-low-fg); }
+
+.confidence-score {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.finding-claim {
+  margin: 0 0 10px;
+}
+
+.source-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.source-chip {
+  font-size: 0.75rem;
+  padding: 3px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.source-literature { background: var(--chip-lit-bg); color: var(--chip-lit-fg); }
+.source-trial_registry { background: var(--chip-trial-bg); color: var(--chip-trial-fg); }
+.source-internal_report { background: var(--chip-internal-bg); color: var(--chip-internal-fg); }
+
+.limitations {
+  margin-top: 20px;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.limitations h3 {
+  margin: 0 0 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.limitations ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.citation-strip {
+  margin-top: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.citation-strip.passed { background: var(--status-answered-bg); color: var(--status-answered-fg); }
+.citation-strip.failed { background: var(--status-escalated-bg); color: var(--status-escalated-fg); }
+
+.raw-json {
+  margin-top: 16px;
+  color: var(--text-muted);
+}
+
+.raw-json summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.raw-json pre, .raw-error {
+  overflow-x: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+@media (max-width: 480px) {
+  .ask-form button { align-self: stretch; }
+}

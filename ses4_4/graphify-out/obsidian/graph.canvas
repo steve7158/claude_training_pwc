@@ -1,0 +1,2974 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Governed Pipeline Core",
+      "x": 0,
+      "y": 0,
+      "width": 1320,
+      "height": 720,
+      "color": "1"
+    },
+    {
+      "id": "n_claude_audit_evidence_trail_hook",
+      "type": "file",
+      "file": "dot-claudehooksaudit_evidence_trail.py (PostToolUse audit hook).md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_enforce_source_allowlist_hook",
+      "type": "file",
+      "file": "dot-claudehooksenforce_source_allowlist.py (PreToolUse hook).md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_20_step_ai_dlc_checklist",
+      "type": "file",
+      "file": "20-step AI-DLC checklist.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_azure_ai_search_stretch",
+      "type": "file",
+      "file": "Azure AI Search  text-embedding-3-large backend (stretch).md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_blg_999",
+      "type": "file",
+      "file": "BLG-999 (unapproved patient-forum mirror doc).md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_reports_code_review_2026_09_19_code_review_report",
+      "type": "file",
+      "file": "Code review 2026-09-19 report.md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_context_memory_policy",
+      "type": "file",
+      "file": "Context-and-memory policy (key_points-only extraction discipline).md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_evidence_review_skill_evidence_review",
+      "type": "file",
+      "file": "Evidence Review skill (pipeline supervisor).md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_glx_9081",
+      "type": "file",
+      "file": "GLX-9081 (fictional compound).md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_helios_evidence_review_agent",
+      "type": "file",
+      "file": "Helios Evidence-Review Agent (CLAUDE.md governance spec).md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_readme_helios_evidence_review_agent",
+      "type": "file",
+      "file": "Helios Evidence-Review Agent README.md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_helios_oncology",
+      "type": "file",
+      "file": "Helios Oncology (fictional biotech).md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_hybrid_search_mechanism",
+      "type": "file",
+      "file": "Hybrid keyword+vector search with recency re-ranking.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_kras_g12c",
+      "type": "file",
+      "file": "KRAS G12C (drug target class).md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_nsclc",
+      "type": "file",
+      "file": "NSCLC (disease).md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_metadata_schema",
+      "type": "file",
+      "file": "Phase 1 ingestion metadata schema.md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_two_layer_retrieval_boundary",
+      "type": "file",
+      "file": "Retrieval boundary vs. corpus allowlist (two distinct layers).md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_evaluation_harness_stretch",
+      "type": "file",
+      "file": "Retrievalprecision evaluation harness (stretch, not built).md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_triage_skill_triage",
+      "type": "file",
+      "file": "Triage skill.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_confidence_formula",
+      "type": "file",
+      "file": "Weighted confidence-scoring formula.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_check_staleness_tool",
+      "type": "file",
+      "file": "check_staleness (MCP tool).md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_citation_validator_citation_validator",
+      "type": "file",
+      "file": "citation-validator.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "type": "file",
+      "file": "confidence-scorer.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_evidence_mcp_server",
+      "type": "file",
+      "file": "evidence-mcp-server  evidence_mcp_server.py.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_allowlist_json",
+      "type": "file",
+      "file": "evidence-mcp-serverdataallowlist.json (approved-source registry).md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "type": "file",
+      "file": "evidence-synthesizer.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_get_document_tool",
+      "type": "file",
+      "file": "get_document (MCP tool).md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_list_sources_tool",
+      "type": "file",
+      "file": "list_sources (MCP tool).md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_literature_agent_literature_agent",
+      "type": "file",
+      "file": "literature-agent.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_scripts_new_governed_agent_project",
+      "type": "file",
+      "file": "new-governed-agent-project.sh.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_scripts_new_governed_agent_project_sh__entry",
+      "type": "file",
+      "file": "new-governed-agent-project.sh script.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "type": "file",
+      "file": "p3-triage-agent.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_patent_agent_stretch",
+      "type": "file",
+      "file": "patent-agent  patent source_type (stretch, not built).md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_query_planner_query_planner",
+      "type": "file",
+      "file": "query-planner.md",
+      "x": 620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_search_corpus_tool",
+      "type": "file",
+      "file": "search_corpus (MCP tool).md",
+      "x": 820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_trial_agent_trial_agent",
+      "type": "file",
+      "file": "trial-agent.md",
+      "x": 1020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "UI Backend Instrumentation",
+      "x": 1400,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "2"
+    },
+    {
+      "id": "n_ui_otel_setup_noopspan_enter",
+      "type": "file",
+      "file": "dot-__enter__().md",
+      "x": 1420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_noopspan_exit",
+      "type": "file",
+      "file": "dot-__exit__().md",
+      "x": 1620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_handler_send_json",
+      "type": "file",
+      "file": "dot-_send_json().md",
+      "x": 1820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_noopcounter_add",
+      "type": "file",
+      "file": "dot-add().md",
+      "x": 2020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_handler_do_get",
+      "type": "file",
+      "file": "dot-do_GET().md",
+      "x": 2220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_handler_do_post",
+      "type": "file",
+      "file": "dot-do_POST().md",
+      "x": 2420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_handler_log_message",
+      "type": "file",
+      "file": "dot-log_message().md",
+      "x": 1420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_noophistogram_record",
+      "type": "file",
+      "file": "dot-record().md",
+      "x": 1620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_noopspan_set_attribute",
+      "type": "file",
+      "file": "dot-set_attribute().md",
+      "x": 1820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_nooptracer_start_as_current_span",
+      "type": "file",
+      "file": "dot-start_as_current_span().md",
+      "x": 2020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_basehttprequesthandler",
+      "type": "file",
+      "file": "BaseHTTPRequestHandler.md",
+      "x": 2220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_handler",
+      "type": "file",
+      "file": "Handler.md",
+      "x": 2420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_rationale_1",
+      "type": "file",
+      "file": "Optional OpenTelemetry instrumentation for the Helios evidence-review UI\u2026.md",
+      "x": 1420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_rationale_2",
+      "type": "file",
+      "file": "Stdlib-only web UI backend for the Helios evidence-review pipeline. Serves the\u2026.md",
+      "x": 1620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_noopcounter",
+      "type": "file",
+      "file": "_NoopCounter.md",
+      "x": 1820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_noophistogram",
+      "type": "file",
+      "file": "_NoopHistogram.md",
+      "x": 2020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_noopspan",
+      "type": "file",
+      "file": "_NoopSpan.md",
+      "x": 2220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_nooptracer",
+      "type": "file",
+      "file": "_NoopTracer.md",
+      "x": 2420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_invoke_pipeline",
+      "type": "file",
+      "file": "_invoke_pipeline().md",
+      "x": 1420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_get_tracer",
+      "type": "file",
+      "file": "get_tracer().md",
+      "x": 1620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_http_server",
+      "type": "file",
+      "file": "http_server.md",
+      "x": 1820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_init_telemetry",
+      "type": "file",
+      "file": "init_telemetry().md",
+      "x": 2020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_main",
+      "type": "file",
+      "file": "main().md",
+      "x": 2220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup",
+      "type": "file",
+      "file": "otel_setup.py.md",
+      "x": 2420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_otel_setup_record_pipeline_result",
+      "type": "file",
+      "file": "record_pipeline_result().md",
+      "x": 1420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server_run_pipeline",
+      "type": "file",
+      "file": "run_pipeline().md",
+      "x": 1620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_server",
+      "type": "file",
+      "file": "server.py.md",
+      "x": 1820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_subprocess",
+      "type": "file",
+      "file": "subprocess.md",
+      "x": 2020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_time",
+      "type": "file",
+      "file": "time.md",
+      "x": 2220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Evidence MCP Server",
+      "x": 2800,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "3"
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_rationale_374",
+      "type": "file",
+      "file": "Check whether a document exceeds the policy staleness threshold (see\u2026.md",
+      "x": 2820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_rationale_340",
+      "type": "file",
+      "file": "Fetch the full content and metadata of one document by doc_id. Read-only.\u2026.md",
+      "x": 3020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_rationale_295",
+      "type": "file",
+      "file": "Hybrid (keyword + TF-IDF vector) search over the approved evidence corpus, with\u2026.md",
+      "x": 3220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_rationale_363",
+      "type": "file",
+      "file": "List every source on the approved allowlist (source_id, name, type, domain).\u2026.md",
+      "x": 3420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_rationale_417",
+      "type": "file",
+      "file": "Return the Phase 1 ingestion metadata schema every document is captured against..md",
+      "x": 3620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_rationale_400",
+      "type": "file",
+      "file": "Return the current Helios evidence-review policy..md",
+      "x": 3820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_rationale_433",
+      "type": "file",
+      "file": "Reusable kickoff prompt for a governed targetdisease evidence review..md",
+      "x": 2820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_cosine",
+      "type": "file",
+      "file": "_cosine().md",
+      "x": 3020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_doc_text",
+      "type": "file",
+      "file": "_doc_text().md",
+      "x": 3220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_idf",
+      "type": "file",
+      "file": "_idf().md",
+      "x": 3420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_keyword_score",
+      "type": "file",
+      "file": "_keyword_score().md",
+      "x": 3620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_recency_boost",
+      "type": "file",
+      "file": "_recency_boost().md",
+      "x": 3820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_tfidf_vector",
+      "type": "file",
+      "file": "_tfidf_vector().md",
+      "x": 2820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_tokenize",
+      "type": "file",
+      "file": "_tokenize().md",
+      "x": 3020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_check_staleness",
+      "type": "file",
+      "file": "check_staleness().md",
+      "x": 3220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_collections",
+      "type": "file",
+      "file": "collections.md",
+      "x": 3420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server",
+      "type": "file",
+      "file": "evidence_mcp_server.py.md",
+      "x": 3620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_evidence_review",
+      "type": "file",
+      "file": "evidence_review().md",
+      "x": 3820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_evidence_standards",
+      "type": "file",
+      "file": "evidence_standards().md",
+      "x": 2820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_get_document",
+      "type": "file",
+      "file": "get_document().md",
+      "x": 3020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_list_sources",
+      "type": "file",
+      "file": "list_sources().md",
+      "x": 3220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_math",
+      "type": "file",
+      "file": "math.md",
+      "x": 3420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_mcp_server_fastmcp",
+      "type": "file",
+      "file": "mcp_server_fastmcp.md",
+      "x": 3620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_metadata_schema",
+      "type": "file",
+      "file": "metadata_schema().md",
+      "x": 3820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prompt",
+      "type": "file",
+      "file": "prompt.md",
+      "x": 2820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_resource",
+      "type": "file",
+      "file": "resource.md",
+      "x": 3020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "type": "file",
+      "file": "search_corpus().md",
+      "x": 3220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_tool",
+      "type": "file",
+      "file": "tool.md",
+      "x": 3420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "GLX-9081 Evidence Corpus",
+      "x": 4200,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_504_acquired_resistance_mechanism",
+      "type": "file",
+      "file": "Acquired Resistance via Secondary RAS-Pathway Alterations.md",
+      "x": 4220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_505_anti_pd_1_checkpoint_blockade",
+      "type": "file",
+      "file": "Anti-PD-1 Checkpoint Blockade.md",
+      "x": 4420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_blg_999_blg_999",
+      "type": "file",
+      "file": "BLG-999 Unverified Patient Forum Post (Unapproved Source).md",
+      "x": 4620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_702_docetaxel",
+      "type": "file",
+      "file": "Docetaxel (Comparator).md",
+      "x": 4820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_501_glx_9081",
+      "type": "file",
+      "file": "GLX-9081 (KRAS G12C Inhibitor Compound).md",
+      "x": 5020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_505_combination_hepatotoxicity_signal",
+      "type": "file",
+      "file": "Grade 3-4 Hepatotoxicity Signal Specific to Combination Therapy.md",
+      "x": 5220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_int_901_int_901",
+      "type": "file",
+      "file": "INT-901 ctDNA Monitoring Strategy Memo (BIO-2026-009).md",
+      "x": 4220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_int_902_int_902",
+      "type": "file",
+      "file": "INT-902 KRAS G12C Competitive Landscape Memo (CI-2024-017).md",
+      "x": 4420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_501_kras_g12c",
+      "type": "file",
+      "file": "KRAS G12C (Drug Target).md",
+      "x": 4620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_501_lit_501",
+      "type": "file",
+      "file": "LIT-501 GLX-9081 Pooled Phase 2 Analysis in NSCLC.md",
+      "x": 4820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_502_lit_502",
+      "type": "file",
+      "file": "LIT-502 GLX-9081 Intracranial Activity Subgroup Analysis.md",
+      "x": 5020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_503_lit_503",
+      "type": "file",
+      "file": "LIT-503 GLX-9081 Real-World Effectiveness Retrospective Cohort.md",
+      "x": 5220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_504_lit_504",
+      "type": "file",
+      "file": "LIT-504 Acquired Resistance Mechanisms to GLX-9081.md",
+      "x": 4220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_505_lit_505",
+      "type": "file",
+      "file": "LIT-505 GLX-9081 + Anti-PD-1 Combination Hepatotoxicity Signal.md",
+      "x": 4420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_506_lit_506",
+      "type": "file",
+      "file": "LIT-506 RAS-Pathway Oncogenic Drivers Review (2023).md",
+      "x": 4620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_501_nsclc",
+      "type": "file",
+      "file": "NSCLC (Non-Small Cell Lung Cancer).md",
+      "x": 4820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_703_platinum_based_chemotherapy",
+      "type": "file",
+      "file": "Platinum-Based Chemotherapy (Comparator).md",
+      "x": 5020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_703_hel_9081_104",
+      "type": "file",
+      "file": "Registry ID HEL-9081-104.md",
+      "x": 5220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_701_hel_9081_201",
+      "type": "file",
+      "file": "Registry ID HEL-9081-201.md",
+      "x": 4220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_702_hel_9081_301",
+      "type": "file",
+      "file": "Registry ID HEL-9081-301.md",
+      "x": 4420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_701_trl_701",
+      "type": "file",
+      "file": "TRL-701 Phase 2 Registry Entry (Completed).md",
+      "x": 4620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_702_trl_702",
+      "type": "file",
+      "file": "TRL-702 Phase 3 Registry Entry (Completed).md",
+      "x": 4820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_trl_703_trl_703",
+      "type": "file",
+      "file": "TRL-703 Phase 12 Registry Entry (Recruiting).md",
+      "x": 5020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_lit_503_trial_to_real_world_attenuation",
+      "type": "file",
+      "file": "Trial-to-Real-World Efficacy Attenuation.md",
+      "x": 5220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_blg_999_unapproved_dosing_protocol",
+      "type": "file",
+      "file": "Unapproved GLX-9081 Dosing Protocol (Anecdotal, Excluded from Evidence).md",
+      "x": 4220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_evidence_mcp_server_data_documents_int_901_ctdna_monitoring_strategy",
+      "type": "file",
+      "file": "ctDNA Monitoring Strategy for Early Resistance Detection.md",
+      "x": 4420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Retrieval Allowlist Hook",
+      "x": 0,
+      "y": 800,
+      "width": 880,
+      "height": 520,
+      "color": "5"
+    },
+    {
+      "id": "n_claude_hooks_enforce_source_allowlist_rationale_45",
+      "type": "file",
+      "file": "True only if curlwget is actually the program being run in some sub-command,\u2026.md",
+      "x": 20,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_hooks_audit_evidence_trail",
+      "type": "file",
+      "file": "audit_evidence_trail.py.md",
+      "x": 220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_datetime",
+      "type": "file",
+      "file": "datetime.md",
+      "x": 420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_hooks_enforce_source_allowlist_deny",
+      "type": "file",
+      "file": "deny().md",
+      "x": 620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_hooks_enforce_source_allowlist",
+      "type": "file",
+      "file": "enforce_source_allowlist.py.md",
+      "x": 20,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_hooks_enforce_source_allowlist_host_is_approved",
+      "type": "file",
+      "file": "host_is_approved().md",
+      "x": 220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_hooks_enforce_source_allowlist_invokes_retrieval_tool",
+      "type": "file",
+      "file": "invokes_retrieval_tool().md",
+      "x": 420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_json",
+      "type": "file",
+      "file": "json.md",
+      "x": 620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_os",
+      "type": "file",
+      "file": "os.md",
+      "x": 20,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_pathlib",
+      "type": "file",
+      "file": "pathlib.md",
+      "x": 220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_re",
+      "type": "file",
+      "file": "re.md",
+      "x": 420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_shlex",
+      "type": "file",
+      "file": "shlex.md",
+      "x": 620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_sys",
+      "type": "file",
+      "file": "sys.md",
+      "x": 20,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_urllib_parse",
+      "type": "file",
+      "file": "urllib_parse.md",
+      "x": 220,
+      "y": 1120,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Observability & Load-Test Stack",
+      "x": 1400,
+      "y": 800,
+      "width": 880,
+      "height": 420,
+      "color": "6"
+    },
+    {
+      "id": "n_docker_compose",
+      "type": "file",
+      "file": "Docker Compose - OTelPrometheusTempoGrafana Stack.md",
+      "x": 1420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docker_compose_k6",
+      "type": "file",
+      "file": "Docker Compose - k6 InfluxDBGrafana Stack.md",
+      "x": 1620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_grafana_provisioning_datasources_datasources",
+      "type": "file",
+      "file": "Grafana Datasources Provisioning (Prometheus + Tempo).md",
+      "x": 1820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_k6_observability_grafana_provisioning_datasources_influxdb",
+      "type": "file",
+      "file": "Grafana InfluxDB Datasource Provisioning.md",
+      "x": 2020,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_k6_observability_grafana_provisioning_dashboards_dashboards",
+      "type": "file",
+      "file": "Grafana k6 Dashboards Provider Config.md",
+      "x": 1420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_otel_collector_config",
+      "type": "file",
+      "file": "OTel Collector Config.md",
+      "x": 1620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_requirements_observability",
+      "type": "file",
+      "file": "Observability Python Requirements (OTel SDK).md",
+      "x": 1820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_prometheus",
+      "type": "file",
+      "file": "Prometheus Scrape Config.md",
+      "x": 2020,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_tempo",
+      "type": "file",
+      "file": "Tempo Config.md",
+      "x": 1420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docker_compose_k6_grafana",
+      "type": "file",
+      "file": "k6-grafana Service (Grafana 11.4.0).md",
+      "x": 1620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_docker_compose_k6_influxdb",
+      "type": "file",
+      "file": "k6-influxdb Service (InfluxDB 1.8).md",
+      "x": 1820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "UI Rendering Logic",
+      "x": 2800,
+      "y": 800,
+      "width": 880,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_ui_app",
+      "type": "file",
+      "file": "app.js.md",
+      "x": 2820,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_escapehtml",
+      "type": "file",
+      "file": "escapeHtml().md",
+      "x": 3020,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_findingtemplate",
+      "type": "file",
+      "file": "findingTemplate.md",
+      "x": 3220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_form",
+      "type": "file",
+      "file": "form.md",
+      "x": 3420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_rendererror",
+      "type": "file",
+      "file": "renderError().md",
+      "x": 2820,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_renderfinding",
+      "type": "file",
+      "file": "renderFinding().md",
+      "x": 3020,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_renderresult",
+      "type": "file",
+      "file": "renderResult().md",
+      "x": 3220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_results",
+      "type": "file",
+      "file": "results.md",
+      "x": 3420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_statusline",
+      "type": "file",
+      "file": "statusLine.md",
+      "x": 2820,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ui_app_submitbtn",
+      "type": "file",
+      "file": "submitBtn.md",
+      "x": 3020,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Graphify Skill Docs",
+      "x": 4200,
+      "y": 800,
+      "width": 660,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_claude_skills_graphify_references_github_and_merge_github_and_merge",
+      "type": "file",
+      "file": "graphify GitHub clone & cross-repo merge reference.md",
+      "x": 4220,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_skill_honesty_rules",
+      "type": "file",
+      "file": "graphify Honesty Rules.md",
+      "x": 4420,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_references_add_watch_add_watch",
+      "type": "file",
+      "file": "graphify add & watch reference.md",
+      "x": 4620,
+      "y": 880,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_references_hooks_hooks",
+      "type": "file",
+      "file": "graphify commit-hook & CLAUDE.md integration reference.md",
+      "x": 4220,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_references_exports_exports",
+      "type": "file",
+      "file": "graphify exports & benchmark reference.md",
+      "x": 4420,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_references_query_query",
+      "type": "file",
+      "file": "graphify querypathexplain reference.md",
+      "x": 4620,
+      "y": 960,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_skill_graphify",
+      "type": "file",
+      "file": "graphify skill.md",
+      "x": 4220,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_references_transcribe_transcribe",
+      "type": "file",
+      "file": "graphify transcribe reference.md",
+      "x": 4420,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_skills_graphify_references_update_update",
+      "type": "file",
+      "file": "graphify update & cluster-only reference.md",
+      "x": 4620,
+      "y": 1040,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "UI Presentation Layer",
+      "x": 0,
+      "y": 1400,
+      "width": 660,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_claude_fixed_output_schema",
+      "type": "file",
+      "file": "Fixed structured JSON response schema.md",
+      "x": 20,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_observability_otel_instrumentation",
+      "type": "file",
+      "file": "OTel spanmetrics instrumentation of uiserver.py.md",
+      "x": 220,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_observability_otel_grafana_observability",
+      "type": "file",
+      "file": "OpenTelemetry + Grafana Observability.md",
+      "x": 420,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_agents_frontend_agent_frontend_agent",
+      "type": "file",
+      "file": "frontend-agent.md",
+      "x": 20,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_ui_frontend_files",
+      "type": "file",
+      "file": "uiindex.html, app.js, style.css (frontend).md",
+      "x": 220,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_claude_ui_server_py",
+      "type": "file",
+      "file": "uiserver.py (headless pipeline backend).md",
+      "x": 420,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "k6 Load Test Script",
+      "x": 1400,
+      "y": 1400,
+      "width": 660,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_k6_load_test_iterations",
+      "type": "file",
+      "file": "ITERATIONS.md",
+      "x": 1420,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_k6_load_test_vus",
+      "type": "file",
+      "file": "VUS.md",
+      "x": 1620,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_k6_load_test",
+      "type": "file",
+      "file": "load-test.js.md",
+      "x": 1820,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_k6_load_test_options",
+      "type": "file",
+      "file": "options.md",
+      "x": 1420,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_k6",
+      "type": "file",
+      "file": "ref_k6.md",
+      "x": 1620,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Startup Script",
+      "x": 2800,
+      "y": 1400,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_start_otel_exporter_otlp_endpoint",
+      "type": "file",
+      "file": "OTEL_EXPORTER_OTLP_ENDPOINT.md",
+      "x": 2820,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_start_otel_service_name",
+      "type": "file",
+      "file": "OTEL_SERVICE_NAME.md",
+      "x": 3020,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_start",
+      "type": "file",
+      "file": "start.sh.md",
+      "x": 2820,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_start_sh__entry",
+      "type": "file",
+      "file": "start.sh script.md",
+      "x": 3020,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "MCP Server Registration",
+      "x": 4200,
+      "y": 1400,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_mcp",
+      "type": "file",
+      "file": "dot-mcp.json.md",
+      "x": 4220,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_mcp_command_home_labuser_steve_proj_claude_training_pwc_ses4_4_evidence_mcp_server_venv_bin_python",
+      "type": "file",
+      "file": "homelabusersteve-projclaude_training_pwcses4_4evidence-mcp-server.venvbinpython.md",
+      "x": 4420,
+      "y": 1480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_mcp_mcp_server_evidence",
+      "type": "file",
+      "file": "evidence.md",
+      "x": 4220,
+      "y": 1560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Helios UI Page",
+      "x": 0,
+      "y": 1880,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_ui_index",
+      "type": "file",
+      "file": "Helios Evidence Review UI (index.html).md",
+      "x": 20,
+      "y": 1960,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_ui_otel_setup_noopcounter_ui_otel_setup_init_telemetry",
+      "fromNode": "n_ui_otel_setup_noopcounter",
+      "toNode": "n_ui_otel_setup_init_telemetry",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopcounter_ui_otel_setup_record_pipeline_result",
+      "fromNode": "n_ui_otel_setup_noopcounter",
+      "toNode": "n_ui_otel_setup_record_pipeline_result",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopcounter_ui_otel_setup",
+      "fromNode": "n_ui_otel_setup_noopcounter",
+      "toNode": "n_ui_otel_setup",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopcounter_ui_otel_setup_noopcounter_add",
+      "fromNode": "n_ui_otel_setup_noopcounter",
+      "toNode": "n_ui_otel_setup_noopcounter_add",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noophistogram_ui_otel_setup_init_telemetry",
+      "fromNode": "n_ui_otel_setup_noophistogram",
+      "toNode": "n_ui_otel_setup_init_telemetry",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noophistogram_ui_otel_setup_record_pipeline_result",
+      "fromNode": "n_ui_otel_setup_noophistogram",
+      "toNode": "n_ui_otel_setup_record_pipeline_result",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noophistogram_ui_otel_setup",
+      "fromNode": "n_ui_otel_setup_noophistogram",
+      "toNode": "n_ui_otel_setup",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noophistogram_ui_otel_setup_noophistogram_record",
+      "fromNode": "n_ui_otel_setup_noophistogram",
+      "toNode": "n_ui_otel_setup_noophistogram_record",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopspan_ui_otel_setup_nooptracer_start_as_current_span",
+      "fromNode": "n_ui_otel_setup_noopspan",
+      "toNode": "n_ui_otel_setup_nooptracer_start_as_current_span",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopspan_ui_otel_setup",
+      "fromNode": "n_ui_otel_setup_noopspan",
+      "toNode": "n_ui_otel_setup",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopspan_ui_otel_setup_noopspan_enter",
+      "fromNode": "n_ui_otel_setup_noopspan",
+      "toNode": "n_ui_otel_setup_noopspan_enter",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopspan_ui_otel_setup_noopspan_exit",
+      "fromNode": "n_ui_otel_setup_noopspan",
+      "toNode": "n_ui_otel_setup_noopspan_exit",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_noopspan_ui_otel_setup_noopspan_set_attribute",
+      "fromNode": "n_ui_otel_setup_noopspan",
+      "toNode": "n_ui_otel_setup_noopspan_set_attribute",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_nooptracer_ui_otel_setup_get_tracer",
+      "fromNode": "n_ui_otel_setup_nooptracer",
+      "toNode": "n_ui_otel_setup_get_tracer",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_nooptracer_ui_otel_setup_init_telemetry",
+      "fromNode": "n_ui_otel_setup_nooptracer",
+      "toNode": "n_ui_otel_setup_init_telemetry",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_nooptracer_ui_otel_setup",
+      "fromNode": "n_ui_otel_setup_nooptracer",
+      "toNode": "n_ui_otel_setup",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_nooptracer_ui_otel_setup_nooptracer_start_as_current_span",
+      "fromNode": "n_ui_otel_setup_nooptracer",
+      "toNode": "n_ui_otel_setup_nooptracer_start_as_current_span",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_ui_server",
+      "fromNode": "n_ui_server_handler",
+      "toNode": "n_ui_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_basehttprequesthandler",
+      "fromNode": "n_ui_server_handler",
+      "toNode": "n_basehttprequesthandler",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_ui_server_handler_log_message",
+      "fromNode": "n_ui_server_handler",
+      "toNode": "n_ui_server_handler_log_message",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_ui_server_handler_send_json",
+      "fromNode": "n_ui_server_handler",
+      "toNode": "n_ui_server_handler_send_json",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_ui_server_handler_do_get",
+      "fromNode": "n_ui_server_handler",
+      "toNode": "n_ui_server_handler_do_get",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_ui_server_handler_do_post",
+      "fromNode": "n_ui_server_handler",
+      "toNode": "n_ui_server_handler_do_post",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_get_tracer_ui_server_run_pipeline",
+      "fromNode": "n_ui_otel_setup_get_tracer",
+      "toNode": "n_ui_server_run_pipeline",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_get_tracer_ui_otel_setup",
+      "fromNode": "n_ui_otel_setup_get_tracer",
+      "toNode": "n_ui_otel_setup",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_init_telemetry_ui_server_main",
+      "fromNode": "n_ui_otel_setup_init_telemetry",
+      "toNode": "n_ui_server_main",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_init_telemetry_ui_otel_setup",
+      "fromNode": "n_ui_otel_setup_init_telemetry",
+      "toNode": "n_ui_otel_setup",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_record_pipeline_result_ui_server_run_pipeline",
+      "fromNode": "n_ui_otel_setup_record_pipeline_result",
+      "toNode": "n_ui_server_run_pipeline",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_record_pipeline_result_ui_otel_setup",
+      "fromNode": "n_ui_otel_setup_record_pipeline_result",
+      "toNode": "n_ui_otel_setup",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_do_get_ui_server_handler_send_json",
+      "fromNode": "n_ui_server_handler_do_get",
+      "toNode": "n_ui_server_handler_send_json",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_do_post_ui_server_handler_send_json",
+      "fromNode": "n_ui_server_handler_do_post",
+      "toNode": "n_ui_server_handler_send_json",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_handler_do_post_ui_server_run_pipeline",
+      "fromNode": "n_ui_server_handler_do_post",
+      "toNode": "n_ui_server_run_pipeline",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_invoke_pipeline_ui_server_run_pipeline",
+      "fromNode": "n_ui_server_invoke_pipeline",
+      "toNode": "n_ui_server_run_pipeline",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_invoke_pipeline_ui_server",
+      "fromNode": "n_ui_server_invoke_pipeline",
+      "toNode": "n_ui_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_main_ui_server",
+      "fromNode": "n_ui_server_main",
+      "toNode": "n_ui_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_run_pipeline_ui_server",
+      "fromNode": "n_ui_server_run_pipeline",
+      "toNode": "n_ui_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_check_staleness_tool",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_check_staleness",
+      "toNode": "n_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_check_staleness_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_check_staleness",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_check_staleness_evidence_mcp_server_evidence_mcp_server_rationale_374",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_check_staleness",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_rationale_374",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_cosine_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_cosine",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_cosine_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_cosine",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_doc_text_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_doc_text",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_evidence_review_prompt",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_evidence_review",
+      "toNode": "n_prompt",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_evidence_review_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_evidence_review",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_evidence_review_evidence_mcp_server_evidence_mcp_server_rationale_433",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_evidence_review",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_rationale_433",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_evidence_standards_resource",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_evidence_standards",
+      "toNode": "n_resource",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_evidence_standards_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_evidence_standards",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_evidence_standards_evidence_mcp_server_evidence_mcp_server_rationale_400",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_evidence_standards",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_rationale_400",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_get_document_tool",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_get_document",
+      "toNode": "n_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_get_document_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_get_document",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_get_document_evidence_mcp_server_evidence_mcp_server_rationale_340",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_get_document",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_rationale_340",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_idf_evidence_mcp_server_evidence_mcp_server_tfidf_vector",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_idf",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_tfidf_vector",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_idf_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_idf",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_keyword_score_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_keyword_score",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_keyword_score_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_keyword_score",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_list_sources_tool",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_list_sources",
+      "toNode": "n_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_list_sources_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_list_sources",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_list_sources_evidence_mcp_server_evidence_mcp_server_rationale_363",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_list_sources",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_rationale_363",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_metadata_schema_resource",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_metadata_schema",
+      "toNode": "n_resource",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_metadata_schema_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_metadata_schema",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_metadata_schema_evidence_mcp_server_evidence_mcp_server_rationale_417",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_metadata_schema",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_rationale_417",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_recency_boost_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_recency_boost",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_recency_boost_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_recency_boost",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_search_corpus_evidence_mcp_server_evidence_mcp_server_tokenize",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_tokenize",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_search_corpus_evidence_mcp_server_evidence_mcp_server_tfidf_vector",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_tfidf_vector",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_search_corpus_tool",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "toNode": "n_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_search_corpus_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_search_corpus_evidence_mcp_server_evidence_mcp_server_rationale_295",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_search_corpus",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server_rationale_295",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_tfidf_vector_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_tfidf_vector",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_tokenize_evidence_mcp_server_evidence_mcp_server",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server_tokenize",
+      "toNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_deny_claude_hooks_enforce_source_allowlist",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist_deny",
+      "toNode": "n_claude_hooks_enforce_source_allowlist",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_host_is_approved_claude_hooks_enforce_source_allowlist",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist_host_is_approved",
+      "toNode": "n_claude_hooks_enforce_source_allowlist",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_invokes_retrieval_tool_claude_hooks_enforce_source_allowlist",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist_invokes_retrieval_tool",
+      "toNode": "n_claude_hooks_enforce_source_allowlist",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_invokes_retrieval_tool_claude_hooks_enforce_source_allowlist_rationale_45",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist_invokes_retrieval_tool",
+      "toNode": "n_claude_hooks_enforce_source_allowlist_rationale_45",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_escapehtml_ui_app_renderresult",
+      "fromNode": "n_ui_app_escapehtml",
+      "toNode": "n_ui_app_renderresult",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_escapehtml_ui_app",
+      "fromNode": "n_ui_app_escapehtml",
+      "toNode": "n_ui_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_rendererror_ui_app",
+      "fromNode": "n_ui_app_rendererror",
+      "toNode": "n_ui_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_renderfinding_ui_app_renderresult",
+      "fromNode": "n_ui_app_renderfinding",
+      "toNode": "n_ui_app_renderresult",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_renderfinding_ui_app",
+      "fromNode": "n_ui_app_renderfinding",
+      "toNode": "n_ui_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_renderresult_ui_app",
+      "fromNode": "n_ui_app_renderresult",
+      "toNode": "n_ui_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_scripts_new_governed_agent_project_scripts_new_governed_agent_project_sh__entry",
+      "fromNode": "n_scripts_new_governed_agent_project",
+      "toNode": "n_scripts_new_governed_agent_project_sh__entry",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_scripts_new_governed_agent_project_claude_reports_code_review_2026_09_19_code_review_report",
+      "fromNode": "n_scripts_new_governed_agent_project",
+      "toNode": "n_claude_reports_code_review_2026_09_19_code_review_report",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_os",
+      "fromNode": "n_ui_otel_setup",
+      "toNode": "n_os",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_ui_server",
+      "fromNode": "n_ui_otel_setup",
+      "toNode": "n_ui_server",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_otel_setup_ui_otel_setup_rationale_1",
+      "fromNode": "n_ui_otel_setup",
+      "toNode": "n_ui_otel_setup_rationale_1",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_json",
+      "fromNode": "n_ui_server",
+      "toNode": "n_json",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_subprocess",
+      "fromNode": "n_ui_server",
+      "toNode": "n_subprocess",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_sys",
+      "fromNode": "n_ui_server",
+      "toNode": "n_sys",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_time",
+      "fromNode": "n_ui_server",
+      "toNode": "n_time",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_http_server",
+      "fromNode": "n_ui_server",
+      "toNode": "n_http_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_pathlib",
+      "fromNode": "n_ui_server",
+      "toNode": "n_pathlib",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_server_ui_server_rationale_2",
+      "fromNode": "n_ui_server",
+      "toNode": "n_ui_server_rationale_2",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_start_start_sh__entry",
+      "fromNode": "n_start",
+      "toNode": "n_start_sh__entry",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_start_start_otel_exporter_otlp_endpoint",
+      "fromNode": "n_start",
+      "toNode": "n_start_otel_exporter_otlp_endpoint",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_start_start_otel_service_name",
+      "fromNode": "n_start",
+      "toNode": "n_start_otel_service_name",
+      "label": "defines [EXTRACTED]"
+    },
+    {
+      "id": "e_mcp_mcp_mcp_server_evidence",
+      "fromNode": "n_mcp",
+      "toNode": "n_mcp_mcp_server_evidence",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_mcp_command_home_labuser_steve_proj_claude_training_pwc_ses4_4_evidence_mcp_server_venv_bin_python_mcp_mcp_server_evidence",
+      "fromNode": "n_mcp_command_home_labuser_steve_proj_claude_training_pwc_ses4_4_evidence_mcp_server_venv_bin_python",
+      "toNode": "n_mcp_mcp_server_evidence",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_datetime",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "toNode": "n_datetime",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_math",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "toNode": "n_math",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_json",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "toNode": "n_json",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_re",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "toNode": "n_re",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_collections",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "toNode": "n_collections",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_pathlib",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "toNode": "n_pathlib",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_evidence_mcp_server_evidence_mcp_server_mcp_server_fastmcp",
+      "fromNode": "n_evidence_mcp_server_evidence_mcp_server",
+      "toNode": "n_mcp_server_fastmcp",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_audit_evidence_trail_datetime",
+      "fromNode": "n_claude_hooks_audit_evidence_trail",
+      "toNode": "n_datetime",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_audit_evidence_trail_json",
+      "fromNode": "n_claude_hooks_audit_evidence_trail",
+      "toNode": "n_json",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_audit_evidence_trail_os",
+      "fromNode": "n_claude_hooks_audit_evidence_trail",
+      "toNode": "n_os",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_audit_evidence_trail_sys",
+      "fromNode": "n_claude_hooks_audit_evidence_trail",
+      "toNode": "n_sys",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_json",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist",
+      "toNode": "n_json",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_re",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist",
+      "toNode": "n_re",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_shlex",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist",
+      "toNode": "n_shlex",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_sys",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist",
+      "toNode": "n_sys",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_pathlib",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist",
+      "toNode": "n_pathlib",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_hooks_enforce_source_allowlist_urllib_parse",
+      "fromNode": "n_claude_hooks_enforce_source_allowlist",
+      "toNode": "n_urllib_parse",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_ui_app_form",
+      "fromNode": "n_ui_app",
+      "toNode": "n_ui_app_form",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_ui_app_submitbtn",
+      "fromNode": "n_ui_app",
+      "toNode": "n_ui_app_submitbtn",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_ui_app_statusline",
+      "fromNode": "n_ui_app",
+      "toNode": "n_ui_app_statusline",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_ui_app_results",
+      "fromNode": "n_ui_app",
+      "toNode": "n_ui_app_results",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ui_app_ui_app_findingtemplate",
+      "fromNode": "n_ui_app",
+      "toNode": "n_ui_app_findingtemplate",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_k6_load_test_ref_k6",
+      "fromNode": "n_k6_load_test",
+      "toNode": "n_ref_k6",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_k6_load_test_k6_load_test_vus",
+      "fromNode": "n_k6_load_test",
+      "toNode": "n_k6_load_test_vus",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_k6_load_test_k6_load_test_iterations",
+      "fromNode": "n_k6_load_test",
+      "toNode": "n_k6_load_test_iterations",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_k6_load_test_k6_load_test_options",
+      "fromNode": "n_k6_load_test",
+      "toNode": "n_k6_load_test_options",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_20_step_ai_dlc_checklist_claude_reports_code_review_2026_09_19_code_review_report",
+      "fromNode": "n_claude_20_step_ai_dlc_checklist",
+      "toNode": "n_claude_reports_code_review_2026_09_19_code_review_report",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_skills_evidence_review_skill_evidence_review",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_skills_evidence_review_skill_evidence_review",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_check_staleness_tool",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_check_staleness_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_get_document_tool",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_get_document_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_list_sources_tool",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_list_sources_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_agents_confidence_scorer_confidence_scorer",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_citation_validator_citation_validator_claude_skills_graphify_skill_honesty_rules",
+      "fromNode": "n_claude_agents_citation_validator_citation_validator",
+      "toNode": "n_claude_skills_graphify_skill_honesty_rules",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_claude_agents_confidence_scorer_confidence_scorer_claude_skills_evidence_review_skill_evidence_review",
+      "fromNode": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "toNode": "n_claude_skills_evidence_review_skill_evidence_review",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_confidence_scorer_confidence_scorer_claude_confidence_formula",
+      "fromNode": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "toNode": "n_claude_confidence_formula",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_confidence_scorer_confidence_scorer_claude_check_staleness_tool",
+      "fromNode": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "toNode": "n_claude_check_staleness_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_confidence_scorer_confidence_scorer_claude_get_document_tool",
+      "fromNode": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "toNode": "n_claude_get_document_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_confidence_scorer_confidence_scorer_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_confidence_scorer_confidence_scorer_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_confidence_scorer_confidence_scorer",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_evidence_synthesizer_evidence_synthesizer_claude_skills_evidence_review_skill_evidence_review",
+      "fromNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "toNode": "n_claude_skills_evidence_review_skill_evidence_review",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_evidence_synthesizer_evidence_synthesizer_claude_context_memory_policy",
+      "fromNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "toNode": "n_claude_context_memory_policy",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_evidence_synthesizer_evidence_synthesizer_claude_get_document_tool",
+      "fromNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "toNode": "n_claude_get_document_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_evidence_synthesizer_evidence_synthesizer_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_evidence_synthesizer_evidence_synthesizer_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_evidence_synthesizer_evidence_synthesizer_claude_agents_literature_agent_literature_agent",
+      "fromNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "toNode": "n_claude_agents_literature_agent_literature_agent",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_evidence_synthesizer_evidence_synthesizer_claude_agents_trial_agent_trial_agent",
+      "fromNode": "n_claude_agents_evidence_synthesizer_evidence_synthesizer",
+      "toNode": "n_claude_agents_trial_agent_trial_agent",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_skills_evidence_review_skill_evidence_review",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_skills_evidence_review_skill_evidence_review",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_check_staleness_tool",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_check_staleness_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_context_memory_policy",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_context_memory_policy",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_get_document_tool",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_get_document_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_search_corpus_tool",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_search_corpus_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_agents_query_planner_query_planner",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_agents_query_planner_query_planner",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_literature_agent_literature_agent_claude_patent_agent_stretch",
+      "fromNode": "n_claude_agents_literature_agent_literature_agent",
+      "toNode": "n_claude_patent_agent_stretch",
+      "label": "conceptually_related_to [INFERRED]"
+    },
+    {
+      "id": "e_claude_agents_p3_triage_agent_p3_triage_agent_claude_skills_triage_skill_triage",
+      "fromNode": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "toNode": "n_claude_skills_triage_skill_triage",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_p3_triage_agent_p3_triage_agent_claude_allowlist_json",
+      "fromNode": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "toNode": "n_claude_allowlist_json",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_p3_triage_agent_p3_triage_agent_claude_enforce_source_allowlist_hook",
+      "fromNode": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "toNode": "n_claude_enforce_source_allowlist_hook",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_p3_triage_agent_p3_triage_agent_claude_fixed_output_schema",
+      "fromNode": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "toNode": "n_claude_fixed_output_schema",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_p3_triage_agent_p3_triage_agent_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_p3_triage_agent_p3_triage_agent_claude_skills_evidence_review_skill_evidence_review",
+      "fromNode": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "toNode": "n_claude_skills_evidence_review_skill_evidence_review",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_p3_triage_agent_p3_triage_agent_claude_ui_server_py",
+      "fromNode": "n_claude_agents_p3_triage_agent_p3_triage_agent",
+      "toNode": "n_claude_ui_server_py",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_query_planner_query_planner_claude_skills_evidence_review_skill_evidence_review",
+      "fromNode": "n_claude_agents_query_planner_query_planner",
+      "toNode": "n_claude_skills_evidence_review_skill_evidence_review",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_query_planner_query_planner_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_query_planner_query_planner",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_query_planner_query_planner_claude_agents_trial_agent_trial_agent",
+      "fromNode": "n_claude_agents_query_planner_query_planner",
+      "toNode": "n_claude_agents_trial_agent_trial_agent",
+      "label": "shares_data_with [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_query_planner_query_planner_claude_skills_graphify_references_query_query",
+      "fromNode": "n_claude_agents_query_planner_query_planner",
+      "toNode": "n_claude_skills_graphify_references_query_query",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_claude_agents_trial_agent_trial_agent_claude_skills_evidence_review_skill_evidence_review",
+      "fromNode": "n_claude_agents_trial_agent_trial_agent",
+      "toNode": "n_claude_skills_evidence_review_skill_evidence_review",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_trial_agent_trial_agent_claude_check_staleness_tool",
+      "fromNode": "n_claude_agents_trial_agent_trial_agent",
+      "toNode": "n_claude_check_staleness_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_trial_agent_trial_agent_claude_context_memory_policy",
+      "fromNode": "n_claude_agents_trial_agent_trial_agent",
+      "toNode": "n_claude_context_memory_policy",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_trial_agent_trial_agent_claude_get_document_tool",
+      "fromNode": "n_claude_agents_trial_agent_trial_agent",
+      "toNode": "n_claude_get_document_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_trial_agent_trial_agent_claude_search_corpus_tool",
+      "fromNode": "n_claude_agents_trial_agent_trial_agent",
+      "toNode": "n_claude_search_corpus_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_trial_agent_trial_agent_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_trial_agent_trial_agent",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_agents_trial_agent_trial_agent_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_agents_trial_agent_trial_agent",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_allowlist_json_claude_reports_code_review_2026_09_19_code_review_report",
+      "fromNode": "n_claude_allowlist_json",
+      "toNode": "n_claude_reports_code_review_2026_09_19_code_review_report",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_allowlist_json_claude_enforce_source_allowlist_hook",
+      "fromNode": "n_claude_allowlist_json",
+      "toNode": "n_claude_enforce_source_allowlist_hook",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_allowlist_json_claude_evidence_mcp_server",
+      "fromNode": "n_claude_allowlist_json",
+      "toNode": "n_claude_evidence_mcp_server",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_allowlist_json_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_allowlist_json",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_audit_evidence_trail_hook_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_audit_evidence_trail_hook",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_azure_ai_search_stretch_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_azure_ai_search_stretch",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_azure_ai_search_stretch_claude_hybrid_search_mechanism",
+      "fromNode": "n_claude_azure_ai_search_stretch",
+      "toNode": "n_claude_hybrid_search_mechanism",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_blg_999_claude_reports_code_review_2026_09_19_code_review_report",
+      "fromNode": "n_claude_blg_999",
+      "toNode": "n_claude_reports_code_review_2026_09_19_code_review_report",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_blg_999_claude_get_document_tool",
+      "fromNode": "n_claude_blg_999",
+      "toNode": "n_claude_get_document_tool",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_blg_999_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_blg_999",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_check_staleness_tool_claude_evidence_mcp_server",
+      "fromNode": "n_claude_check_staleness_tool",
+      "toNode": "n_claude_evidence_mcp_server",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_enforce_source_allowlist_hook_claude_reports_code_review_2026_09_19_code_review_report",
+      "fromNode": "n_claude_enforce_source_allowlist_hook",
+      "toNode": "n_claude_reports_code_review_2026_09_19_code_review_report",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_enforce_source_allowlist_hook_claude_two_layer_retrieval_boundary",
+      "fromNode": "n_claude_enforce_source_allowlist_hook",
+      "toNode": "n_claude_two_layer_retrieval_boundary",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_enforce_source_allowlist_hook_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_enforce_source_allowlist_hook",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_enforce_source_allowlist_hook_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_enforce_source_allowlist_hook",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evaluation_harness_stretch_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_evaluation_harness_stretch",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evidence_mcp_server_claude_reports_code_review_2026_09_19_code_review_report",
+      "fromNode": "n_claude_evidence_mcp_server",
+      "toNode": "n_claude_reports_code_review_2026_09_19_code_review_report",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evidence_mcp_server_claude_get_document_tool",
+      "fromNode": "n_claude_evidence_mcp_server",
+      "toNode": "n_claude_get_document_tool",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evidence_mcp_server_claude_list_sources_tool",
+      "fromNode": "n_claude_evidence_mcp_server",
+      "toNode": "n_claude_list_sources_tool",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evidence_mcp_server_claude_search_corpus_tool",
+      "fromNode": "n_claude_evidence_mcp_server",
+      "toNode": "n_claude_search_corpus_tool",
+      "label": "implements [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evidence_mcp_server_claude_two_layer_retrieval_boundary",
+      "fromNode": "n_claude_evidence_mcp_server",
+      "toNode": "n_claude_two_layer_retrieval_boundary",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evidence_mcp_server_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_evidence_mcp_server",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_evidence_mcp_server_readme_helios_evidence_review_agent",
+      "fromNode": "n_claude_evidence_mcp_server",
+      "toNode": "n_readme_helios_evidence_review_agent",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_glx_9081_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_glx_9081",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_glx_9081_claude_kras_g12c",
+      "fromNode": "n_claude_glx_9081",
+      "toNode": "n_claude_kras_g12c",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_glx_9081_claude_helios_oncology",
+      "fromNode": "n_claude_glx_9081",
+      "toNode": "n_claude_helios_oncology",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_claude_helios_oncology_claude_helios_evidence_review_agent",
+      "fromNode": "n_claude_helios_oncology",
+      "toNode": "n_claude_helios_evidence_review_agent",
+      "label": "cites [EXTRACTED]"
+    }
+  ]
+}

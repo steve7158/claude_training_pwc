@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "evidence": {
+      "type": "stdio",
+      "command": "/home/labuser/steve-proj/claude_training_pwc/ses4_4/evidence-mcp-server/.venv/bin/python",
+      "args": [
+        "/home/labuser/steve-proj/claude_training_pwc/ses4_4/evidence-mcp-server/evidence_mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}
