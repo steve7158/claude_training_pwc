@@ -1,0 +1,77 @@
+[
+  {
+    "id": "p001",
+    "name": "Test Patient A",
+    "age": 67,
+    "sex": "F",
+    "problem_list": ["Type 2 diabetes mellitus", "Hypertension", "Osteoarthritis (right knee)"],
+    "medications": ["Metformin 1000mg BID", "Lisinopril 20mg daily", "Acetaminophen 500mg PRN"],
+    "allergies": ["Penicillin (rash)"],
+    "vitals": {"bp": "138/86", "hr": "78", "temp": "98.4F", "weight": "182 lb", "a1c": "7.8%"},
+    "visit_history": [
+      {"date": "2026-06-02", "note": "Follow-up for T2DM. A1c improved from 8.4 to 7.8 on current metformin dose. BP still mildly elevated. Continue current meds, recheck labs in 3 months. Discussed diet and exercise."},
+      {"date": "2026-03-10", "note": "New complaint of right knee pain, worse with stairs. No swelling or instability on exam. X-ray ordered. Started acetaminophen PRN."},
+      {"date": "2025-12-01", "note": "Annual physical. Reviewed medication list, no changes. Flu vaccine given. Labs ordered for next visit."}
+    ]
+  },
+  {
+    "id": "p002",
+    "name": "Test Patient B",
+    "age": 42,
+    "sex": "M",
+    "problem_list": ["Asthma (mild intermittent)", "Seasonal allergies", "Anxiety"],
+    "medications": ["Albuterol inhaler PRN", "Fluticasone nasal spray daily", "Sertraline 50mg daily"],
+    "allergies": ["NKDA"],
+    "vitals": {"bp": "122/78", "hr": "72", "temp": "98.1F", "weight": "165 lb", "spo2": "98%"},
+    "visit_history": [
+      {"date": "2026-08-15", "note": "Reports increased anxiety related to work stress, sleep disrupted. Sertraline increased from 25mg to 50mg. Follow-up in 4 weeks, referral to counseling offered and accepted."},
+      {"date": "2026-04-22", "note": "Seasonal allergy flare, nasal congestion, mild wheeze with exertion. Advised to resume fluticasone daily during pollen season. Albuterol refilled."},
+      {"date": "2025-11-05", "note": "Routine visit, doing well, no acute complaints. Continue current regimen."}
+    ]
+  },
+  {
+    "id": "p003",
+    "name": "Test Patient C",
+    "age": 74,
+    "sex": "M",
+    "problem_list": ["Coronary artery disease", "Hyperlipidemia", "Chronic kidney disease stage 3", "Atrial fibrillation"],
+    "medications": ["Atorvastatin 40mg daily", "Metoprolol 50mg BID", "Apixaban 5mg BID", "Aspirin 81mg daily"],
+    "allergies": ["Sulfa drugs (hives)"],
+    "vitals": {"bp": "128/76", "hr": "68 (irregular)", "temp": "97.9F", "weight": "198 lb", "egfr": "48 mL/min"},
+    "visit_history": [
+      {"date": "2026-07-20", "note": "Cardiology follow-up for AFib, rate well controlled on metoprolol. INR/renal function stable. Continue apixaban, no bleeding events reported. eGFR stable at 48."},
+      {"date": "2026-05-01", "note": "Routine labs reviewed, LDL at goal on atorvastatin. Renal function stable, CKD stage 3 monitored. No new symptoms."},
+      {"date": "2026-01-18", "note": "Presented with palpitations, found to be in new-onset AFib. Started on apixaban and metoprolol. Referred to cardiology."}
+    ]
+  },
+  {
+    "id": "p004",
+    "name": "Test Patient D",
+    "age": 29,
+    "sex": "F",
+    "problem_list": ["Migraine with aura", "Iron deficiency anemia"],
+    "medications": ["Sumatriptan 50mg PRN", "Ferrous sulfate 325mg daily"],
+    "allergies": ["NKDA"],
+    "vitals": {"bp": "110/68", "hr": "74", "temp": "98.2F", "weight": "128 lb", "hgb": "10.8 g/dL"},
+    "visit_history": [
+      {"date": "2026-08-30", "note": "Migraine frequency improved, now 1-2 per month vs weekly. Sumatriptan effective when taken early. Hgb rechecked, improved to 10.8 from 9.6. Continue iron supplementation."},
+      {"date": "2026-06-10", "note": "Fatigue and pallor noted, labs showed iron deficiency anemia (Hgb 9.6). Started ferrous sulfate, dietary counseling given."},
+      {"date": "2026-02-14", "note": "New diagnosis of migraine with aura after recurrent episodes of visual disturbance and headache. Started sumatriptan PRN."}
+    ]
+  },
+  {
+    "id": "p005",
+    "name": "Test Patient E",
+    "age": 55,
+    "sex": "M",
+    "problem_list": ["Obesity", "Prediabetes", "GERD", "Obstructive sleep apnea"],
+    "medications": ["Omeprazole 20mg daily", "CPAP nightly"],
+    "allergies": ["Codeine (nausea)"],
+    "vitals": {"bp": "132/84", "hr": "80", "temp": "98.6F", "weight": "245 lb", "bmi": "34.2"},
+    "visit_history": [
+      {"date": "2026-07-05", "note": "Weight stable, discussed CPAP compliance which patient reports is good (~6 hrs/night). GERD symptoms controlled on omeprazole. Repeat A1c ordered given prediabetes."},
+      {"date": "2026-03-22", "note": "Sleep study confirmed moderate OSA. CPAP prescribed. Weight loss counseling provided, referral to nutrition."},
+      {"date": "2025-10-11", "note": "Annual physical. A1c 5.9%, borderline prediabetes range. GERD symptoms reported, started omeprazole."}
+    ]
+  }
+]
